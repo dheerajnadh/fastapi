@@ -1,10 +1,10 @@
 from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
 from sqlalchemy.sql.expression import null
 
-from database import Base
+from . import database
 
 
-class Post(Base):
+class Post(database.Base):
     __tablename__ = "posts"
 
     id = Column(Integer, primary_key=True, nullable =False)
