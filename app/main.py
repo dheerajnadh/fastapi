@@ -4,8 +4,7 @@ from typing import Optional
 from pydantic import BaseModel
 from random import randrange
 import time
-import models
-import database
+from . import models,database
 
 from database import SessionLocal, engine
 
