@@ -4,8 +4,8 @@ uvicorn>=0.15.0,<0.16.0
 pydantic
 pydantic-core
 pydantic-extra-types
-pydantic-settings==2.2.1
-SQLAlchemy==2.0.27
-typing-extensions==4.9.0
-typing-inspect==0.9.0
+pydantic-settings
+SQLAlchemy
+typing-extensions
+typing-inspect
 
