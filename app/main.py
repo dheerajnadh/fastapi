@@ -3,8 +3,6 @@ from sqlalchemy.orm import Session
 from typing import Optional
 from pydantic import BaseModel
 from random import randrange
-import psycopg2
-from psycopg2.extras import RealDictCursor
 import time
 import models
 import database
